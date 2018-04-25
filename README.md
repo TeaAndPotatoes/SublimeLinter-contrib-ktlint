@@ -1,7 +1,7 @@
 SublimeLinter-contrib-ktlint
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-ktlint.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-ktlint)
+[![Build Status](https://travis-ci.org/TeaAndPotatoes/SublimeLinter-contrib-ktlint.svg?branch=master)](https://travis-ci.org/TeaAndPotatoes/SublimeLinter-contrib-ktlint)
 
 This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [ktlint](https://github.com/shyiko/ktlint). It will be used with files that have the “Kotlin” syntax.
 

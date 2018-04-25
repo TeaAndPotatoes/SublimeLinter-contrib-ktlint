@@ -1,4 +1,4 @@
-from SublimeLinter.lint import Linter, WARNING # or NodeLinter, PythonLinter, ComposerLinter, RubyLinter
+from SublimeLinter.lint import Linter, WARNING  # or NodeLinter, PythonLinter, ComposerLinter, RubyLinter
 
 
 class Kotlin(Linter):
