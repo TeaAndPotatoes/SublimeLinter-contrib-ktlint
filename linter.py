@@ -1,10 +1,11 @@
-from SublimeLinter.lint import Linter  # or NodeLinter, PythonLinter, ComposerLinter, RubyLinter
+from SublimeLinter.lint import Linter, WARNING # or NodeLinter, PythonLinter, ComposerLinter, RubyLinter
 
 
-class __class__(Linter):
-    cmd = '__cmd__'
-    regex = r''
-    multiline = False
+class Kotlin(Linter):
+    cmd = 'ktlint ${file}'
+    regex = r'^.+:(?P<line>\d+):(?P<col>\d+):\s+(?P<message>.+)'
+    tempfile_suffix = '-'
+    default_type = WARNING
     defaults = {
-        'selector': 'source.python'
+        'selector': 'source.Kotlin'
     }
